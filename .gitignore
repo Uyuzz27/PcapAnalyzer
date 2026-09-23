@@ -1,0 +1,26 @@
+# Captures and generated output — never commit real network data
+input/*
+!input/.gitkeep
+
+output/*
+!output/.gitkeep
+
+logs/*
+!logs/.gitkeep
+
+# Reports generated if scripts are run from repo root
+*_analysis.json
+*_analysis.md
+*_alerts.csv
+*_MASTER_REPORT.md
+*_L1_report.md
+*_L2_report.md
+*_L3_report.md
+*_pentester_report.md
+*_blue_report.md
+*_purple_report.md
+*_network_report.md
+
+# Python
+__pycache__/
+*.pyc
